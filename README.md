@@ -26,3 +26,17 @@
 # UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing
 > [Dianyi Wang**](https://scholar.google.com/citations?hl=zh-CN&user=iP2HPFEAAAAJ), [Chaofan Ma**](https://github.com/chaofanma), Feng Han, [Size Wu](https://wusize.github.io/), [Wei Song](https://scholar.google.com/citations?hl=zh-CN&user=k0blIUIAAAAJ), [Yibin Wang](https://codegoat24.github.io/), [Zhixiong Zhang](https://rookiexiong7.github.io/), Tianhang Wang, [Siyuan Wang :email:](https://siyuanwangw.github.io/), [Zhongyu Wei :email:](http://www.fudan-disc.com/people/zywei), [Jiaqi Wang :tophat: :email: ](https://myownskyw7.github.io/)
 >> contact: dywang24@m.fudan.edu.cn, sw_641@usc.edu, Wei-zywei@fudan.edu.cn, wjqdev@gmail.com
+
+>> We propose **UniReason**, a unified framework
+that harmonizes these two tasks through a dual reasoning paradigm. We formulate generation
+as world knowledge-enhanced planning to inject implicit constraints, and leverage editing capabilities
+for fine-grained visual refinement to further correct visual errors via self-reflection. This approach
+unifies generation and editing within a shared representation, mirroring the human cognitive process
+of planning followed by refinement. We support this framework by systematically constructing a
+large-scale reasoning-centric dataset covering five major knowledge domains (e.g.,
+cultural commonsense, physics, etc.) for planning, alongside an agent-generated corpus for visual
+self-correction. Extensive experiments demonstrate that UniReason achieves advanced performance
+on reasoning-intensive benchmarks such as WISE and KrisBench, while maintaining superior general
+synthesis capabilities on GenEval and ImgEdit. The figure below showcases UniReason's qualitative performance.
+
+<p align="center"><img src="unireason.png" width="95%"></p>
