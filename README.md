@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="unireason_lo.png" alt="BAGEL" width="500"/ hei>
+  <img src="unireason_lo.png" alt="BAGEL" width="450"/ hei>
 </p>
 
 <p align="center">
@@ -22,3 +22,7 @@
     />
   </a>
 </p>
+
+# UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing
+> [Dianyi Wang**](https://scholar.google.com/citations?hl=zh-CN&user=iP2HPFEAAAAJ), [Chaofan Ma**](https://github.com/chaofanma), Feng Han, [Size Wu](https://wusize.github.io/), [Wei Song](https://scholar.google.com/citations?hl=zh-CN&user=k0blIUIAAAAJ), [Yibin Wang](https://codegoat24.github.io/), [Zhixiong Zhang](https://rookiexiong7.github.io/), Tianhang Wang, [Siyuan Wang :email:](https://siyuanwangw.github.io/), [Zhongyu Wei :email:](http://www.fudan-disc.com/people/zywei), [Jiaqi Wang :tophat: :email: ](https://myownskyw7.github.io/)
+>> contact: dywang24@m.fudan.edu.cn, sw_641@usc.edu, Wei-zywei@fudan.edu.cn, wjqdev@gmail.com
