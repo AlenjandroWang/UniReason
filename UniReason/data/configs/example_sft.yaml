@@ -1,0 +1,168 @@
+blip3o_sft_dataset:
+  dataset_names: 
+  - blip3o_sft_dataset
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  weight: 1.0
+  is_mandatory: true
+
+sharegpt4o_sft_dataset:
+  dataset_names: 
+  - sharegpt4o_sft_dataset
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  weight: 1.0
+  is_mandatory: true
+
+  
+open4o_sft_dataset:
+  dataset_names: 
+  - open4o_sft_dataset
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  weight: 1.0
+  is_mandatory: true
+
+echo4o_sft_dataset:
+  dataset_names: 
+  - echo4o_sft_dataset
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  weight: 1.0
+  is_mandatory: true
+
+
+
+share4o_edit_sft:
+  dataset_names: 
+  - share4o_edit_sft
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 532
+    min_image_size: 224
+  weight: 1.0
+  is_mandatory: true
+
+open4o_edit_sft:
+  dataset_names: 
+  - open4o_edit_sft
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 532
+    min_image_size: 224
+  weight: 1.0
+  is_mandatory: true
+
+nano150_edit_sft:
+  dataset_names: 
+  - nano150_edit_sft
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 532
+    min_image_size: 224
+  weight: 1.0
+  is_mandatory: true
+
+picobanana_edit_sft:
+  dataset_names: 
+  - picobanana_edit_sft
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 532
+    min_image_size: 224
+  weight: 1.0
+  is_mandatory: true
+
+refine_edit:
+  dataset_names: 
+  - refine_edit
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 532
+    min_image_size: 224
+  weight: 1.0
+  is_mandatory: true
+
+refine_t2i_long:
+  dataset_names: 
+  - refine_t2i_long
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 532
+    min_image_size: 224
+  weight: 1.0
+  is_mandatory: true
+
+
+
+t2i_reason:
+  dataset_names: 
+  - t2i_reason
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  weight: 1.0
+  is_mandatory: true
+
+edit_reason:
+  dataset_names: 
+  - edit_reason
+  num_used_data: None 
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 532
+    min_image_size: 224
+  weight: 1.0
+  is_mandatory: true
+
+
+
+
