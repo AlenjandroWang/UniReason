@@ -24,7 +24,7 @@
 </p>
 
 # UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing
-> [Dianyi Wang**](https://scholar.google.com/citations?hl=zh-CN&user=iP2HPFEAAAAJ), [Chaofan Ma**](https://github.com/chaofanma), Feng Han, [Size Wu](https://wusize.github.io/), [Wei Song](https://scholar.google.com/citations?hl=zh-CN&user=k0blIUIAAAAJ), [Yibin Wang](https://codegoat24.github.io/), [Zhixiong Zhang](https://rookiexiong7.github.io/), Tianhang Wang, [Siyuan Wang :email:](https://siyuanwangw.github.io/), [Zhongyu Wei :email:](http://www.fudan-disc.com/people/zywei), [Jiaqi Wang :tophat: :email: ](https://myownskyw7.github.io/)
+> [Dianyi Wang**](https://scholar.google.com/citations?hl=zh-CN&user=iP2HPFEAAAAJ), [Chaofan Ma**](https://github.com/chaofanma), [Feng Han](https://scholar.google.com/citations?user=oFmRTTkAAAAJ&hl=zh-CN), [Size Wu](https://wusize.github.io/), [Wei Song](https://scholar.google.com/citations?hl=zh-CN&user=k0blIUIAAAAJ), [Yibin Wang](https://codegoat24.github.io/), [Zhixiong Zhang](https://rookiexiong7.github.io/), Tianhang Wang, [Siyuan Wang :email:](https://siyuanwangw.github.io/), [Zhongyu Wei :email:](http://www.fudan-disc.com/people/zywei), [Jiaqi Wang :tophat: :email: ](https://myownskyw7.github.io/)
 >> contact: dywang24@m.fudan.edu.cn, sw_641@usc.edu, Wei-zywei@fudan.edu.cn, wjqdev@gmail.com
 
 >> We propose **UniReason**, a unified framework
@@ -40,3 +40,11 @@ on reasoning-intensive benchmarks such as WISE and KrisBench, while maintaining 
 synthesis capabilities on GenEval and ImgEdit. The figure below showcases UniReason's qualitative performance.
 
 <p align="center"><img src="unireason.png" width="95%"></p>
+
+
+## 🧠 Method
+
+Our core objective is to equip the unified multimodal model to infer implicit world knowledge underlying abstract instructions, and integrate world knowledge inference and surface-level organization into textual reasoning. This process provides explicit and structured guidance for synthesizing an initial visual output, mirroring human conceptual planning prior to rendering. The second complementary components is Fine-grained Editing-like Visual Refinement that re-assesses the initial synthesized image considering prior textual reasoning, reflectively identifies and verbalizes inconsistencies or missing details or incorporating a second round of textual reasoning to think twice, enabling iterative reflection and correction.
+
+
+<p align="center"><img src="unireason_pipeline.png" width="95%"></p>
