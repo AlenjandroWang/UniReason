@@ -10,7 +10,7 @@ torchrun \
    ./gen/gen_images_mp_uniredit.py \
     --input_dir $input_path \
     --output_dir $output_path \
-    --metadata_file /inspire/qb-ilm/project/deepgen/public/UniREditBench/data.json \
+    --metadata_file ./eval/gen/UniREditBench/data.json \
     --max_latent_size 64 \
     --model-path $model_path \
     --think
