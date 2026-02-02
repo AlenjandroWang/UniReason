@@ -15,7 +15,7 @@ torchrun \
     --master_port=12345 \
     ./gen/gen_images_mp_unigenbench_refine.py \
     --output_dir $output_path/images \
-    --csv_path ./UniGenBench/test_prompts_en.csv \
+    --csv_path ./eval/gen/UniGenBench/test_prompts_en.csv \
     --batch_size 1 \
     --num_images 4 \
     --resolution 1024 \
