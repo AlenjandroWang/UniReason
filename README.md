@@ -17,7 +17,7 @@
   </a>
   <a href="https://huggingface.co/spaces/ByteDance-Seed/BAGEL">
     <img 
-        src="https://img.shields.io/badge/UniReason-Data-yellow?logo=huggingface&logoColor=yellow" 
+        src="https://img.shields.io/badge/UniReason-Data Coming Soon-yellow?logo=huggingface&logoColor=yellow" 
         alt="UniReason tuing data"
     />
   </a>
@@ -48,3 +48,34 @@ Our core objective is to equip the unified multimodal model to infer implicit wo
 
 
 <p align="center"><img src="unireason_pipeline.png" width="95%"></p>
+
+## 🔥 News
+- **Feb 1, 2026:** We released **UniReason 0.1** stage_1(Foundational Generation Strengthening) and stage_2(Interleaved Reasoning Tuning) checkpoints on [Huggingface](https://huggingface.co/Alex11556666/UniReason), support both T2I generation and image editing with two complementary reasoning paradigms.
+- **Feb 2, 2026:** We released the training and evaluation code support wide range of benchmarks 
+- **Feb 3, 2026:** We released the **UniReason 0.1** technical report in [Arxiv]()
+
+## 🔥 Train & Eval
+
+### Set up environment
+```bash
+git clone https://github.com/bytedance-seed/BAGEL.git
+cd BAGEL
+conda create -n bagel python=3.10 -y
+conda activate bagel
+pip install -r requirements.txt
+pip install flash_attn==2.5.8 --no-build-isolation
+```
+
+### Train
+We provide the scripts for Interleaved Reasoning Tuning.
+```bash
+bash scripts/sft.sh
+```
+
+You can replace the variables in the script with your own before running. 
+See [TRAIN](TRAIN.md) for more details.
+
+### Eval
+We provide the scripts for evaluating T2I and Editing benchmarks, support World Knowledge-Enhanced Textual Reasoning and Fine-grained Editing-like Visual Refinement. 
+Please See [EVAL](EVAL.md) for more details.
+
