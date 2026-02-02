@@ -80,3 +80,28 @@ See [TRAIN](TRAIN.md) for more details.
 We provide the scripts for evaluating T2I and Editing benchmarks, support World Knowledge-Enhanced Textual Reasoning and Fine-grained Editing-like Visual Refinement. 
 Please See [EVAL](EVAL.md) for more details.
 
+
+## 📊 Benchmarks
+### 1. Text-to-Image Generation
+| Model        | Geneval ↑ |DPGBench ↑ |WISE ↑ |
+| ------------ | --------- | --------- |--------- |
+| BAGEL  | 0.88      |85.07|0.70|
+| Hunyuan-Image-3.0  |  0.72     |86.10|0.57|
+| Qwen-Image  | 0.74      |**88.32** |0.62|
+| UniCoT    | 0.83  |- |0.75|
+| **UniReason**    | **0.90**  |86.21|**0.78**|
+
+### 2. Image Editing
+| Model      |GEdit-EN ↑ |KrisBench ↑ |UniREditBench ↑ |
+| ------------ | --------- | --------- |--------- |
+| BAGEL  | 6.52      |60.18|50.96|
+| Qwen-Image-Edit  | **7.56**      |-|56.52|
+| LightFusion-World | 6.58      |61.85|-|
+| UniCoT    | 6.74  |68.00|-|
+| **UniReason**    | 6.94  |**68.23**|**70.06**|
+
+
+## ✍️ Citation
+```bibtex
+
+```
