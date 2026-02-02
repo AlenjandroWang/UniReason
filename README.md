@@ -101,7 +101,7 @@ Please See [EVAL](EVAL.md) for more details.
 | **UniReason**    | 6.94  |**68.23**|**70.06**|
 
 ## 🎨 More Cases
-<p align="center"><img src="unireason.png" width="95%"></p>
+<p align="center"><img src="case.png" width="95%"></p>
 
 ## ✍️ Citation
 ```bibtex
