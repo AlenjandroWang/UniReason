@@ -15,7 +15,7 @@ torchrun \
     --master_port=12345 \
     ./gen/gen_images_dpg.py \
     --output_dir $output_path/images \
-    --metadata_file ./eval/DPG-Bench/prompts \
+    --metadata_file ./eval/gen/DPG-Bench/prompts \
     --batch_size 1 \
     --num_images 4 \
     --resolution 1024 \
