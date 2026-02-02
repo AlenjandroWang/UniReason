@@ -25,9 +25,10 @@
 
 # UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing
 > [Dianyi Wang**](https://scholar.google.com/citations?hl=zh-CN&user=iP2HPFEAAAAJ), [Chaofan Ma**](https://github.com/chaofanma), [Feng Han](https://scholar.google.com/citations?user=oFmRTTkAAAAJ&hl=zh-CN), [Size Wu](https://wusize.github.io/), [Wei Song](https://scholar.google.com/citations?hl=zh-CN&user=k0blIUIAAAAJ), [Yibin Wang](https://codegoat24.github.io/), [Zhixiong Zhang](https://rookiexiong7.github.io/), Tianhang Wang, [Siyuan Wang :email:](https://siyuanwangw.github.io/), [Zhongyu Wei :email:](http://www.fudan-disc.com/people/zywei), [Jiaqi Wang :tophat: :email: ](https://myownskyw7.github.io/)
->> contact: dywang24@m.fudan.edu.cn, sw_641@usc.edu, Wei-zywei@fudan.edu.cn, wjqdev@gmail.com
+>
+> contact: dywang24@m.fudan.edu.cn, sw_641@usc.edu, Wei-zywei@fudan.edu.cn, wjqdev@gmail.com
 
->> We propose **UniReason**, a unified framework
+> We propose **UniReason**, a unified framework
 that harmonizes these two tasks through a dual reasoning paradigm. We formulate generation
 as world knowledge-enhanced planning to inject implicit constraints, and leverage editing capabilities
 for fine-grained visual refinement to further correct visual errors via self-reflection. This approach
@@ -50,9 +51,9 @@ Our core objective is to equip the unified multimodal model to infer implicit wo
 <p align="center"><img src="unireason_pipeline.png" width="95%"></p>
 
 ## 🔥 News
-- **Feb 1, 2026:** We released **UniReason 0.1** stage_1(Foundational Generation Strengthening) and stage_2(Interleaved Reasoning Tuning) checkpoints on [Huggingface](https://huggingface.co/Alex11556666/UniReason), support both T2I generation and image editing with two complementary reasoning paradigms.
+- **Feb 1, 2026:** We released **UniReason 1.0** stage_1(Foundational Generation Strengthening) and stage_2(Interleaved Reasoning Tuning) checkpoints on [Huggingface](https://huggingface.co/Alex11556666/UniReason), support both T2I generation and image editing with two complementary reasoning paradigms.
 - **Feb 2, 2026:** We released the training and evaluation code support wide range of benchmarks 
-- **Feb 3, 2026:** We released the **UniReason 0.1** technical report in [Arxiv]()
+- **Feb 3, 2026:** We released the **UniReason 1.0** technical report on [Arxiv]()
 
 ## 🔥 Train & Eval
 
