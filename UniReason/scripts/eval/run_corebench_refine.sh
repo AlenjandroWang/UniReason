@@ -15,7 +15,7 @@ torchrun \
     --master_port=12347 \
     ./gen/gen_images_mp_corebench_refine.py \
     --output_dir $output_path/images \
-    --metadata_file ./T2I-CoReBench-main/corebench.jsonl \
+    --metadata_file ./eval/gen/T2I-CoReBench-main/corebench.jsonl \
     --batch_size 1 \
     --num_images 4 \
     --resolution 1024 \
