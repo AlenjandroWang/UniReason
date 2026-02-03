@@ -100,7 +100,7 @@ Please See [EVAL](EVAL.md) for more details.
 | UniCoT    | 6.74  |68.00|-|
 | **UniReason**    | 6.94  |**68.23**|**70.06**|
 
-## 🎨 More Cases
+## 🎨 Qualitative Results
 <p align="center"><img src="case.png" width="95%"></p>
 
 ## ✍️ Citation
