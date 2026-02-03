@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2505.14683">
+  <a href="https://arxiv.org/abs/2602.02437">
     <img
       src="https://img.shields.io/badge/UniReason-Paper-red?logo=arxiv&logoColor=red"
       alt="UniReason Paper on arXiv"
@@ -53,7 +53,7 @@ Our core objective is to equip the unified multimodal model to infer implicit wo
 ## 🔥 News
 - **Feb 1, 2026:** We released **UniReason 1.0** stage_1(Foundational Generation Strengthening) and stage_2(Interleaved Reasoning Tuning) checkpoints on [Huggingface](https://huggingface.co/Alex11556666/UniReason), support both T2I generation and image editing with two complementary reasoning paradigms.
 - **Feb 2, 2026:** We released the training and evaluation code support wide range of benchmarks 
-- **Feb 3, 2026:** We released the **UniReason 1.0** technical report on [Arxiv]()
+- **Feb 3, 2026:** We released the **UniReason 1.0** technical report on [Arxiv](https://arxiv.org/abs/2602.02437)
 
 ## 🔥 Train & Eval
 
@@ -105,5 +105,13 @@ Please See [EVAL](EVAL.md) for more details.
 
 ## ✍️ Citation
 ```bibtex
-
+@misc{wang2026unireason10unifiedreasoning,
+      title={UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing}, 
+      author={Dianyi Wang and Chaofan Ma and Feng Han and Size Wu and Wei Song and Yibin Wang and Zhixiong Zhang and Tianhang Wang and Siyuan Wang and Zhongyu Wei and Jiaqi Wang},
+      year={2026},
+      eprint={2602.02437},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2602.02437}, 
+}
 ```
