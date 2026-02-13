@@ -59,7 +59,7 @@ Our core objective is to equip the unified multimodal model to infer implicit wo
 
 ### Set up environment
 ```bash
-https://github.com/AlenjandroWang/UniReason.git
+git clone https://github.com/AlenjandroWang/UniReason.git
 cd UniReason
 conda create -n UniReason python=3.10 -y
 conda activate UniReason
