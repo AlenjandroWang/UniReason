@@ -77,7 +77,7 @@ Directly run `scripts/eval/run_imgedit.sh` to evaluate ImgEdit-Bench. The output
 We create the eval code of [UniGenBench](https://github.com/CodeGoat24/UniGenBench) for faster evaluation.
 
 ## Data prepration
-Please download the benchmark data from [UniGenBench](https://github.com/CodeGoat24/UniGenBench/blob/main/data/test_prompts_en.csv) and and place it in the `Benchmark` directory.
+Please download the benchmark data from [UniGenBench](https://github.com/CodeGoat24/UniGenBench/blob/main/data/test_prompts_en.csv) and place it in the `Benchmark` directory.
 
 ## Evaluation
 Directly run `scripts/eval/run_unigenbench.sh` to evaluate UniGenBench. The output will be saved in `$output_path`.
