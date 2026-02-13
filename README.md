@@ -59,10 +59,10 @@ Our core objective is to equip the unified multimodal model to infer implicit wo
 
 ### Set up environment
 ```bash
-git clone https://github.com/bytedance-seed/BAGEL.git
-cd BAGEL
-conda create -n bagel python=3.10 -y
-conda activate bagel
+https://github.com/AlenjandroWang/UniReason.git
+cd UniReason
+conda create -n UniReason python=3.10 -y
+conda activate UniReason
 pip install -r requirements.txt
 pip install flash_attn==2.5.8 --no-build-isolation
 ```
