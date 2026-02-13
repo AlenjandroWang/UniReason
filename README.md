@@ -15,7 +15,7 @@
         alt="UniReason Model"
     />
   </a>
-  <a href="https://huggingface.co/spaces/ByteDance-Seed/BAGEL">
+  <a href="https://huggingface.co/datasets/Alex11556666/Reason_Tuning">
     <img 
         src="https://img.shields.io/badge/UniReason-Data Coming Soon-yellow?logo=huggingface&logoColor=yellow" 
         alt="UniReason tuing data"
@@ -105,13 +105,10 @@ Please See [EVAL](EVAL.md) for more details.
 
 ## ✍️ Citation
 ```bibtex
-@misc{wang2026unireason10unifiedreasoning,
-      title={UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing}, 
-      author={Dianyi Wang and Chaofan Ma and Feng Han and Size Wu and Wei Song and Yibin Wang and Zhixiong Zhang and Tianhang Wang and Siyuan Wang and Zhongyu Wei and Jiaqi Wang},
-      year={2026},
-      eprint={2602.02437},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2602.02437}, 
+@article{wang2026unireason,
+  title={UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing},
+  author={Wang, Dianyi and Ma, Chaofan and Han, Feng and Wu, Size and Song, Wei and Wang, Yibin and Zhang, Zhixiong and Wang, Tianhang and Wang, Siyuan and Wei, Zhongyu and others},
+  journal={arXiv preprint arXiv:2602.02437},
+  year={2026}
 }
 ```
