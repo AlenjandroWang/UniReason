@@ -17,7 +17,7 @@
   </a>
   <a href="https://huggingface.co/datasets/Alex11556666/Reason_Tuning">
     <img 
-        src="https://img.shields.io/badge/UniReason-Data Coming Soon-yellow?logo=huggingface&logoColor=yellow" 
+        src="https://img.shields.io/badge/UniReason-Data-yellow?logo=huggingface&logoColor=yellow" 
         alt="UniReason tuing data"
     />
   </a>
