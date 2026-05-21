@@ -51,6 +51,7 @@ Our core objective is to equip the unified multimodal model to infer implicit wo
 <p align="center"><img src="unireason_pipeline.png" width="95%"></p>
 
 ## 🔥 News
+- **May 18, 2026:** We released **UniReason 1.0** stage_2(Interleaved Reasoning Tuning) training dataset [Huggingface](https://huggingface.co/datasets/Alex11556666/Reason_Tuning), support reasoning-based and world-aligned T2I generation, image editing, interleaved generation.
 - **Feb 1, 2026:** We released **UniReason 1.0** stage_1(Foundational Generation Strengthening) and stage_2(Interleaved Reasoning Tuning) checkpoints on [Huggingface](https://huggingface.co/Alex11556666/UniReason), support both T2I generation and image editing with two complementary reasoning paradigms.
 - **Feb 2, 2026:** We released the training and evaluation code support wide range of benchmarks 
 - **Feb 3, 2026:** We released the **UniReason 1.0** technical report on [Arxiv](https://arxiv.org/abs/2602.02437)
